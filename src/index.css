@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.friend-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.friend-card:hover {
+  transform: scale(1.05);
+}
